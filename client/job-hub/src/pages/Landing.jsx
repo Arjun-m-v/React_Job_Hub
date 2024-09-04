@@ -36,15 +36,8 @@ function Landing() {
 
 
           <Card id='h1'>
-                  <Card.Img style={{ height:'200px',width: '100%' }} variant="top" src="https://th.bing.com/th/id/OIP.xPBLZGDr4fIoD-MAi8YbvAHaFj?w=236&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" />
-                  <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
-                    <Card.Text>
-                      Some quick example text to build on the card title and make up the
-                      bulk of the card's content.
-                    </Card.Text>
-                    <a className='stretched-link' href={'/log'}></a>
-                  </Card.Body>
+                  <Card.Img style={{ height:'200px',width: '100%' }} variant="top" src="./src/images/Login Here-AMV Solutions....png" alt="no image"/>
+                  <a className='stretched-link' href={'/log'}></a>
                 </Card>
 
           <div className='' style={{height:'400px',width:'100%',alignItems:'left',justifyContent:'left'}}>

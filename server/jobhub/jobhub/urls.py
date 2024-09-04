@@ -1,3 +1,4 @@
+
 """
 URL configuration for jobhub project.
 
@@ -25,6 +26,7 @@ from rest_framework.routers import DefaultRouter
 router=DefaultRouter()
 
 router.register('employee',EmployeeModelViewSet,basename='employee')
+router.register('jobs',CompanyModelViewSet,basename='jobs')
 router.register('company',CompanyModelViewSet,basename='company')
 router.register('user',UserViewSet,basename='user')
 
